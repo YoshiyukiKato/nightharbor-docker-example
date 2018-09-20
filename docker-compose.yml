@@ -1,0 +1,12 @@
+version: '3'
+services:
+  latest:
+    build:
+      context: .
+      dockerfile: dockerfiles/app.dockerfile
+    image: ${REPOSITORY}:latest
+  tag:
+    build:
+      context: .
+      dockerfile: dockerfiles/app.dockerfile
+    image: ${REPOSITORY}:${TAG}

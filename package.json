@@ -1,0 +1,14 @@
+{
+  "name": "nightharbor-docker-example",
+  "version": "1.0.0",
+  "description": "An example project of nightharbor application running on docker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "$(npm bin)/nhb --config main/nhb.config.js"
+  },
+  "author": "Yoshiyuki Kato",
+  "license": "MIT",
+  "dependencies": {
+    "nightharbor": "^0.7.0"
+  }
+}
